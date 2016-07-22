@@ -8,5 +8,5 @@ _isInRange = false;
 		_isInRange = true;
 	};
 }
-forEach ExilePVPZoneMarkerPositions;
+forEach ExilePVPZones;
 _isInRange
