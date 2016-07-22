@@ -7,5 +7,5 @@ _result = false;
 		_result = true;
 	};
 }
-forEach ExilePVPZoneMarkerPositionsAndSize;
+forEach ExilePVPZones;
 _result
