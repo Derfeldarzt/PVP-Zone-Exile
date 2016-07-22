@@ -1,9 +1,8 @@
 Put the PVP_Zone Folder in your Mission File
 
 Put that in your INIT.SQF
-
-
 [] execVM "PVP_Zone\viewmode.sqf";
+
 [] execVM "PVP_Zone\PVP_Respect.sqf";
 
 
