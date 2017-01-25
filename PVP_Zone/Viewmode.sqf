@@ -8,7 +8,7 @@ if (!isDedicated) then {
 
             waitUntil {cameraView == "EXTERNAL" || cameraView == "GROUP"};
 
-            if (ExilePlayerInPVPzone) then {
+            if (isInPVPzone) then {
                 player switchCamera "INTERNAL";
             };
             sleep 0.1;
