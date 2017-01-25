@@ -1,7 +1,7 @@
 private["_vehicle","_attachedObjects","_position"];
-if (ExilePlayerInPVPzone) exitWith { false };
+if (isInPVPzone) exitWith { false };
 if !(alive player) exitWith { false };
-ExilePlayerInPVPzone = true;
+isInPVPzone = true;
 
 _vehicle = vehicle player;
 if !(_vehicle isEqualTo player) then 
